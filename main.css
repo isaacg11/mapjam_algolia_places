@@ -23,14 +23,31 @@ footer {
   margin-top: 20px;
 }
 
+.well{
+  margin-top: 20px;
+}
+
+.thumbnail{
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.caption{
+  border-top: 1px solid #f2f2f2;
+}
+
 .space{
   margin-bottom: 50px;
 }
+
 .line{
   background-color: #cccccc;
   height: 1px;
-  margin-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
+
 .green {
   color: #37b28d;
 }

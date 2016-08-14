@@ -18,6 +18,7 @@ var platform = new H.service.Platform({
   'app_code': '7-qD-TXlEzuPIqvQtQDA-Q'
 });
 
+// Global variables
 var counter = 0;
 var myMarker;
 var address;

@@ -4,8 +4,6 @@
     <title>Mapgolia</title>
     <meta charset="utf-8">
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
-
-    <!-- Add MapJam .js/.css and consolidated resources (Leaflet version 0 and MapboxGL libraries) -->
     <script src="https://res.mapjam.com/lib/0.9/mapjam.js"></script>
     <link href="https://res.mapjam.com/lib/0.9/mapjam.css" rel="stylesheet" />
     <script src="https://res.mapjam.com/lib/0.9/mapjam-resources-L0.js"></script>
@@ -21,7 +19,7 @@
     <div class="col-xs-3"></div>
     <div class="col-xs-6">
       <h1 class="text-center light"><span class="green">Map</span><span class="white">golia</span></h1>
-      <h3 class="text-center white light">The web's fastest map search for any location!</h3>
+      <h3 class="text-center white light">The web's fastest mapping search for any location!</h3>
       <br>
       <form id="search-form" class="navbar-form">
         <input
@@ -41,8 +39,8 @@
   </div>
   <!-- map end -->
 
-  <!-- footer start -->
   <footer>
+    <!-- banner start -->
     <div class="row">
       <div class="col-xs-3"></div>
       <div class="col-xs-6 intro-quote">
@@ -50,11 +48,13 @@
           <h1 class="text-center gray light">"Let's face it, Google Maps API is slow and clunky.
             Mapgolia allows you to perform ligtning fast searches for any address in just milleseconds!"
           </h1>
-      </div>
+        </div>
       </div>
       <div class="col-xs-3"></div>
     </div>
+    <!-- banner end -->
 
+    <!-- APIs start -->
     <div class="row">
       <div class="col-xs-2"></div>
       <div class="col-xs-8">
@@ -64,42 +64,56 @@
       </div>
       <div class="col-xs-2"></div>
     </div>
-
-
-    <div class="container">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
         <div class="row">
           <div class="col-sm-4">
             <div class="thumbnail">
-              <img src="images/algolia.ico" alt="...">
+              <img src="images/algolia.svg">
               <div class="caption">
                 <h3>Algolia Places</h3>
-                <p>...</p>
+                <p>Algolia Places API provides a fast and easy way to use address search autocomplete JavaScript library on a website.</p>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="thumbnail">
-              <img src="images/mapjam.png" alt="...">
+              <img src="images/mapjam.png">
               <div class="caption">
                 <h3>MapJam</h3>
-                <p>...</p>
+                <p>MapJam API for developers offers beautiful, robust vector maps that work seamlessly with small to enterprise web applications.</p>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="thumbnail">
-              <img src="images/here.png" alt="...">
+              <img src="images/here.png">
               <div class="caption">
-                <h3>Nokia HERE</h3>
-                <p>...</p>
+                <h3>HERE</h3>
+                <p>The HERE Geocoder API includes geocoding, reverse geocoding and landmark geocoding for updating maps programatically.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="col-sm-2"></div>
+    </div>
+    <!-- APIs end -->
+
+    <!-- speed start -->
+    <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <div class="line"></div>
+        <h1 class="text-center green light">Lightweight, built for speed</h1>
+        <div class="space"></div>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+    <!-- speed end -->
 
   </footer>
-  <!-- footer start -->
 
   <!-- libraries -->
   <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
