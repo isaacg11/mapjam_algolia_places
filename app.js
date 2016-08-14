@@ -2,7 +2,7 @@
 // Init MapJam map
 var map1 = new MJ.map('mapDiv', {
     centerMap: [37.784753, -122.404701],
-    zoom: 1,
+    zoom: 2.4,
     accessToken: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1N2FmNmM5YzUxM2E3MDM2MDAyNzcxNzkiLCJpc3MiOiJtYXBqYW0uY29tIn0.2COM3S6NWaWy7i5RBA9Os6_TzuZPLR87180lLMeyJMA',
     markers:[]
 });
@@ -47,18 +47,18 @@ form.addEventListener("submit", function(e) {
       myMarker = new MJ.marker(map1, {
         latLng: [address_lat, address_lng],
         size: 'xl',  //valid sizes are xs, s, m, l, xl, xxl
-        color: '#ff0000',
-        backgroundColor: '#ffff00',
-        locationPointColor: '#00ffff',
+        color: '#122337',
+        backgroundColor: '#ffffff',
+        locationPointColor: '#ffffff',
         ring:true,
-        ringColor:'#00ff00',
+        ringColor:'#ffffff',
         iconName: 'fa-search',
-        iconColor: '#ff00ff',
+        iconColor: '#3383B6',
         note: {
           text: address,
           side: 'left',
           autoHide: false,
-          color: '#0000ff',
+          color: '#3379A0',
           textColor: '#ffffff',
         }
       });
@@ -84,6 +84,11 @@ form.addEventListener("submit", function(e) {
       var address_lat = result.Response.View[0].Result[0].Location.NavigationPosition[0].Latitude;
       var address_lng = result.Response.View[0].Result[0].Location.NavigationPosition[0].Longitude;
       MJ.updateMarkerLatLng(map1, myMarker, [address_lat, address_lng]);
+      MJ.updateMarker(myMarker,{
+        note: {
+          text: address
+        }
+      });
     };
 
     geocoder.geocode(geocodingParams, onResult, function(err) {

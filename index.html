@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>MapJam + Algolia Places</title>
+    <title>Mapgolia</title>
     <meta charset="utf-8">
     <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
 
@@ -10,28 +10,102 @@
     <link href="https://res.mapjam.com/lib/0.9/mapjam.css" rel="stylesheet" />
     <script src="https://res.mapjam.com/lib/0.9/mapjam-resources-L0.js"></script>
     <link href="https://res.mapjam.com/lib/0.9/mapjam-resources-L0.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="main.css" rel="stylesheet" />
 </head>
 <body>
+
+  <!-- navbar start -->
+  <div class="row">
+    <div class="col-xs-3"></div>
+    <div class="col-xs-6">
+      <h1 class="text-center light"><span class="green">Map</span><span class="white">golia</span></h1>
+      <h3 class="text-center white light">The web's fastest map search for any location!</h3>
+      <br>
+      <form id="search-form" class="navbar-form">
+        <input
+          id="address-input"
+          type="search"
+          class="full-width"
+          placeholder="Enter address here..." />
+      </form>
+    </div>
+    <div class="col-xs-3"></div>
+  </div>
+  <!-- navbar end -->
+
   <!-- map start -->
-  <div id='mapDiv'></div>
+  <div class="container">
+    <div id='mapDiv'></div>
+  </div>
   <!-- map end -->
 
-  <!-- search input start -->
-  <form id="search-form">
-    <input
-      type="search"
-      id="address-input"
-      placeholder="Enter address" />
-    <button></button>
-  </form>
-  <!-- search input end -->
+  <!-- footer start -->
+  <footer>
+    <div class="row">
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6 intro-quote">
+        <div class="well">
+          <h1 class="text-center gray light">"Let's face it, Google Maps API is slow and clunky.
+            Mapgolia allows you to perform ligtning fast searches for any address in just milleseconds!"
+          </h1>
+      </div>
+      </div>
+      <div class="col-xs-3"></div>
+    </div>
 
+    <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <div class="line"></div>
+        <h1 class="text-center green light">Powered by 3 cutting-edge APIs</h1>
+        <div class="space"></div>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="images/algolia.ico" alt="...">
+              <div class="caption">
+                <h3>Algolia Places</h3>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="images/mapjam.png" alt="...">
+              <div class="caption">
+                <h3>MapJam</h3>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="images/here.png" alt="...">
+              <div class="caption">
+                <h3>Nokia HERE</h3>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </footer>
+  <!-- footer start -->
 
   <!-- libraries -->
   <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
   <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
   <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="app.js"></script>
 </body>
 </html>

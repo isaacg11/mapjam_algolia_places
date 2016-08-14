@@ -1,7 +1,47 @@
+body {
+  background-color: #204063;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+  background-color: #ffffff;
+  margin-bottom: 0px !important;
+  border-top: 1px solid #cccccc;
+}
+
 #mapDiv {
-    position:absolute;
-    top:0;
-    bottom:0;
-    height: 50vh;
+    height: 95vh;
     width:100%;
+    margin-top: 30px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.intro-quote{
+  margin-top: 20px;
+}
+
+.space{
+  margin-bottom: 50px;
+}
+.line{
+  background-color: #cccccc;
+  height: 1px;
+  margin-top: 10px;
+}
+.green {
+  color: #37b28d;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.gray {
+  color: #666666;
+}
+.light {
+  font-weight: 100;
 }
