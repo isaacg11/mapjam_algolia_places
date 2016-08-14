@@ -10,6 +10,7 @@
     <link href="https://res.mapjam.com/lib/0.9/mapjam-resources-L0.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="main.css" rel="stylesheet" />
 </head>
 <body>
@@ -18,7 +19,7 @@
   <div class="row">
     <div class="col-xs-3"></div>
     <div class="col-xs-6">
-      <h1 class="text-center light"><span class="green">Map</span><span class="white">golia</span></h1>
+      <span><h1 class="text-center light"><span class="green">Map</span><span class="white">golia</span></h1>
       <h3 class="text-center white light">The web's fastest mapping search for any location!</h3>
       <br>
       <form id="search-form" class="navbar-form">
@@ -46,7 +47,7 @@
       <div class="col-xs-6 intro-quote">
         <div class="well">
           <h1 class="text-center gray light">"Let's face it, Google Maps API is slow and clunky.
-            Mapgolia allows you to perform ligtning fast searches for any address in just milleseconds!"
+            Mapgolia allows you to perform lightning fast searches for any address in just milleseconds!"
           </h1>
         </div>
       </div>
@@ -101,21 +102,90 @@
     </div>
     <!-- APIs end -->
 
-    <!-- speed start -->
+    <!-- Speed start -->
     <div class="row">
       <div class="col-xs-2"></div>
       <div class="col-xs-8">
         <div class="line"></div>
-        <h1 class="text-center green light">Lightweight, built for speed</h1>
+        <div class="row">
+          <div class="col-xs-3"></div>
+          <div class="col-xs-9">
+            <h1 class="green light">Lightweight, built for speed</h1>
+            <div class="space"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <div class="row">
+          <div class="col-xs-3 text-center">
+              <img src="images/flash.png" />
+          </div>
+          <div class="col-xs-9 gray">
+            <h3 class="details light">
+              Using search APIs to perform address lookup often times is slow, not typo-friendly, and doesn't always return the most relevant results.
+              Mapgolia is quick, accurate, and is designed to produce the best search experience possible.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+    <!-- Speed end -->
+
+    <!-- Mapping start -->
+    <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <div class="line"></div>
+        <div class="row">
+          <div class="col-xs-3"></div>
+          <div class="col-xs-9">
+            <h1 class="green light">Custom Mapping</h1>
+            <div class="space"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <div class="row">
+          <div class="col-xs-3 text-center">
+              <img src="images/location.png" />
+          </div>
+          <div class="col-xs-9 gray">
+            <h3 class="details light">
+              One of the biggest issues with mapping in web development today is that it isn't very customizable.
+              With Google Maps you get boring, generic, static maps. Mapgolia allows you to customize your maps, markers, and more!
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+    <!-- Mapping end -->
+
+    <!-- Coming soon start -->
+    <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <div class="line"></div>
+        <h1 class="text-center green light">Coming soon...</h1>
         <div class="space"></div>
       </div>
       <div class="col-xs-2"></div>
     </div>
-    <!-- speed end -->
+    <!-- Coming soon start -->
 
   </footer>
 
   <!-- libraries -->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/places.js/1/places.min.js"></script>
   <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
   <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js"></script>

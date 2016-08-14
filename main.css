@@ -48,6 +48,11 @@ footer {
   margin-bottom: 40px;
 }
 
+.details {
+  margin-top: 0px !important;
+  color: #666666 !important;
+}
+
 .green {
   color: #37b28d;
 }
