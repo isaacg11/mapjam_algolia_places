@@ -64,21 +64,17 @@ footer {
 .gray {
   color: #666666;
 }
+
+.purple{
+  color: #c395d0 !important;
+}
+
 .light {
   font-weight: 100;
 }
-
-#saveForm, input.btTxt {
-  cursor: pointer;
-  border: 1px solid #a660ba !important;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 16px;
-  line-height: 1.42857143;
-  border-radius: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  box-shadow: none;
-  color: #ffffff;
-  background-color: #a660ba !important;
+.ftr{
+  margin-top: 40px;
+  background-color: #404040;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
