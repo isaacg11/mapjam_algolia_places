@@ -97,3 +97,12 @@ form.addEventListener("submit", function(e) {
     });
   }
 });
+
+// Email signup
+function signup() {
+  var email = document.getElementById('email').value;
+  Stamplay.Object('signups').save({email: email}).then(function(res) {
+    toastr.info('Signup Successful!');
+    document.getElementById('email').value = '';
+  })
+};

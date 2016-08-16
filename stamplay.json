@@ -1,0 +1,10 @@
+{
+  "appId": "mapgolia",
+  "apiKey": "d15f3132a932e0b2796a2cff1e7d39798e8d305f9b6eedcd47069bd8d9cebfa8",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
