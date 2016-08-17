@@ -52,7 +52,7 @@ form.addEventListener("submit", function(e) {
             side: 'left',
             autoHide: false,
             color: '#ffffff',
-            textColor: '#c395d0',
+            textColor: '#37b28d',
           }
         });
       }
