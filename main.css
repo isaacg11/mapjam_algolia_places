@@ -73,13 +73,14 @@ footer {
   font-weight: 100;
 }
 
-.api-img{
-  width: 303px !important;
-  height: 230px !important;
+.ftr-top {
+  margin-top: 40px;
+  height: 130px;
+  background-color: #4d4d4d;
 }
 
-.ftr{
-  margin-top: 40px;
+.ftr {
+  margin-top: 0px;
   background-color: #404040;
   padding-top: 20px;
   padding-bottom: 20px;
